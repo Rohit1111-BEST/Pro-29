@@ -36,7 +36,7 @@ function setup() {
 
 function draw() {
   background(200,200,200);  
-
+  Engine.update(engine)
 
   box8.display();
   box9.display();
